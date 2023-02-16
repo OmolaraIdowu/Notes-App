@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+
+    <!--<fragment
+        android:id="@+id/NoteListFragment"
+        android:name="com.swancodes.notes.NoteListFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_note_list">
+        <action
+            android:id="@+id/to_EditNoteFragment"
+            app:destination="@id/EditNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/EditNoteFragment"
+        android:name="com.swancodes.notes.EditNoteFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_edit_note">
+        &lt;!&ndash;<action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/NoteListFragment"/>&ndash;&gt;
+        &lt;!&ndash;<argument>
+            android:name="note"
+            app:
+        </argument>&ndash;&gt;
+    </fragment>-->
+</navigation>

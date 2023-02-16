@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:opacity="opaque">
+    <item android:drawable="?colorPrimary"/>
+    <item android:drawable="@drawable/note_icon" android:gravity="center" />
+
+</layer-list>
