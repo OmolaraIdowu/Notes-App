@@ -11,9 +11,11 @@
     <color name="black_200">#3B3B3B</color>
     <color name="error">#FF0000</color>
     <color name="green">#91F48F</color>
+    <color name="green_500">#30BE71</color>
     <color name="pink">#FF9E9E</color>
     <color name="pink_500">#FD99FF</color>
     <color name="yellow">#FFF599</color>
     <color name="purple">#B69CFF</color>
+    <color name="teal">#9EFFFF</color>
     <color name="grey">#F4F4F4</color>
 </resources>

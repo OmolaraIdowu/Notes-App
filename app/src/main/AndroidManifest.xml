@@ -12,27 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Notes"
         tools:targetApi="31">
+
         <activity
-            android:name=".EditNoteActivity"
-            android:exported="false"
-            android:label="Edit Note"
-            android:theme="@style/Theme.Notes" >
-        </activity>
-        <activity
-            android:name=".NoteActivity"
+            android:name=".ui.MainActivity"
             android:exported="true"
+            android:configChanges="uiMode"
             android:theme="@style/Theme.Notes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
         </activity>
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
