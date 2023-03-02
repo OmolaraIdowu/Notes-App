@@ -9,9 +9,8 @@ This is a simple note-taking app built using Kotlin, ViewModel, Room Database, a
 >* Android Jetpack:  
 >>° Android KTX  
 ° View binding   
-° LiveData   
-° ViewModel  
 ° Navigation  
+° LiveData     
 ° ViewModel -  Contains the logic for fetching data from the database and passing it to the UI.  
 ° Room - Contains the database schema, data access objects (DAOs), and database instance.  
 >* Kotlin Coroutines
