@@ -1,5 +1,5 @@
 # Notes-App
-This is a simple note-taking app built using Kotlin, ViewModel, Room Database, and RecyclerView. This app allows users to craete, edit, and delete notes.
+This is a simple note-taking app built using Kotlin, ViewModel, Room Database, and RecyclerView. This app allows users to create, edit, and delete notes.
 
 # SDK Requirement
 • Minimum SDK Requirement - Android API 26 (Oreo)  
@@ -7,7 +7,7 @@ This is a simple note-taking app built using Kotlin, ViewModel, Room Database, a
 
 # Libraries
 >* Android Jetpack:  
->> ° Android KTX  
+>>° Android KTX  
 ° View binding   
 ° LiveData   
 ° ViewModel  
