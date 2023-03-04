@@ -1,4 +1,4 @@
-package com.swancodes.notes.ui.home
+package com.swancodes.notes.ui.home.viewModel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -31,5 +31,9 @@ class NoteViewModel (application: Application) : AndroidViewModel(application) {
 
     fun deleteNote(note: Note) = viewModelScope.launch(Dispatchers.IO) {
         repository.deleteNote(note)
+    }
+
+    fun searchDatabase(searchQuery: String): LiveData<List<Note>> {
+        return repository.searchDatabase(searchQuery)
     }
 }

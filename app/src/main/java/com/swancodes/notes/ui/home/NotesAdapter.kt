@@ -30,7 +30,7 @@ class NotesAdapter(
                 listener.onDeleteClick(noteItem)
                 true
             }
-            parent.setCardBackgroundColor(root.resources.getColor(randomColor(), null))
+            parent.setCardBackgroundColor(root.resources.getColor(noteItem.backgroundColor, null))
         }
     }
 
@@ -48,17 +48,4 @@ class NotesAdapter(
 
     override fun getItemCount() = noteList.size
 
-    fun randomColor(): Int {
-        val backgroundColors = ArrayList<Int>()
-        backgroundColors.add(R.color.pink_500)
-        backgroundColors.add(R.color.yellow)
-        backgroundColors.add(R.color.green)
-        backgroundColors.add(R.color.pink)
-        backgroundColors.add(R.color.teal)
-        backgroundColors.add(R.color.purple)
-
-        val seed = System.currentTimeMillis().toInt()
-        val randomIndex = Random(seed).nextInt(backgroundColors.size)
-        return backgroundColors[randomIndex]
-    }
 }

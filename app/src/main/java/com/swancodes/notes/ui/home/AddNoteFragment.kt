@@ -12,6 +12,7 @@ import androidx.navigation.fragment.navArgs
 import com.swancodes.notes.R
 import com.swancodes.notes.data.local.Note
 import com.swancodes.notes.databinding.FragmentAddNoteBinding
+import com.swancodes.notes.ui.home.viewModel.NoteViewModel
 import java.text.SimpleDateFormat
 import java.util.*
 
